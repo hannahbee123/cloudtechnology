@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Poppins:wght@400;700&display=swap');
+
+:root
+{
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: 'PT Serif', serif;
+    --primary-color: #E3F0FF;
+    --secondary-color: #485B72;
+}
+
+.main-body
+{
+    height: 100vh;
+    min-width: 100%;
+    background-image: url("img/main-bg.svg");
+    background-size: cover;
+
+}
+
+.place-items-center
+{
+    display: grid;
+    place-items: center;
+    grid-template-rows: 0.1fr .8fr;
+}
+
+#navbarNavDropdown
+{
+    font-family: var(--main-font);
+    font-size: 16px;
+}
+
+#navbarNavDropdown a
+{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.dropdown-menu
+{
+    background-color: var(--secondary-color);
+}
+
+.index-hero-text h1
+{
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 62px;
+}
+.index-hero-text button
+{
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.index-hero-text button a
+{
+    padding: 15px;
+}
+.index-hero-text p
+{
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 18px;
+}
+
+#navbarNavDropdown .active
+{
+    color: var(--secondary-color);
+}
+#navbarNavDropdown a:hover
+{
+    color: var(--secondary-color);
+}
