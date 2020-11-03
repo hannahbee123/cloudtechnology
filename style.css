@@ -215,10 +215,30 @@
     border-top: solid 2px var(--secondary-color);
 }
 
+/* ------------ END OF DATA CENTER STYLING ----*/
 
+.dt-content-body
+{
+    background-color: #f6f6f6;
+    font-family: var(--main-font);
+    padding-bottom: 200px;
+}
 
-
-
+.number-box
+{
+    height: 120px;
+    width: 200px;
+    background-color: var(--secondary-color);
+    display: grid;
+    place-items: center;
+}
+.number-box h1
+{
+    font-family: var(--main-font);
+    font-size: 100px;
+    color: #f6f6f6;
+    font-weight: 700;
+}
 
 
 @media (max-width: 800px)
