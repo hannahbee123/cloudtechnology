@@ -242,7 +242,7 @@
 
 .about-container
 {
-    height: 100vh;
+    height: 130vh;
     font-family: var(--main-font);
     color: var(--secondary-color);
 }
@@ -253,6 +253,31 @@
 .about-container p
 {
     font-family: var(--secondary-font);
+}
+
+.team-1
+{
+    background-color: #f6f6f6;
+    height: 350px;
+}
+
+.team-img
+{
+    height: 200px;
+    width: 200px;
+    background-color: #485B72;
+}
+
+.team-content-body h1
+{
+    font-family: var(--main-font);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.team-header h1
+{
+    color: var(--primary-color);
 }
 @media (max-width: 800px)
 {
