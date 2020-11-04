@@ -262,3 +262,8 @@
     margin-right: auto;
     width: 50%;
 }
+
+.right {
+    float: right;
+    margin-bottom: 100px;
+}
