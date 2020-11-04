@@ -217,7 +217,7 @@
 
 /* ------------ END OF DATA CENTER STYLING ----*/
 
-.dt-content-body
+.dt-content-body, .about-content-body
 {
     background-color: #f6f6f6;
     font-family: var(--main-font);
@@ -240,7 +240,20 @@
     font-weight: 700;
 }
 
-
+.about-container
+{
+    height: 100vh;
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+}
+.about-container h1
+{
+    font-weight: 700;
+}
+.about-container p
+{
+    font-family: var(--secondary-font);
+}
 @media (max-width: 800px)
 {
     .dc-hero-text
