@@ -12,56 +12,72 @@
     <title>IS 117 Cloud Technology</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Cloud Technology</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Topics
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="cont_vs_virt.html">Containerization vs. Virtualization</a>
-                    <a class="dropdown-item" href="dock_vs_kube.html">Docker vs. Kubernetes</a>
-                    <a class="dropdown-item" href="data_center.html">Data Centers</a>
-                    <a class="dropdown-item" href="docker_tutorial.html">Docker Tutorial</a>
+<div class="container-fluid dc-main-container about-container">
+    <div class="container place-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Topics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="cont_vs_virt.html">Containerization vs. Virtualization</a>
+                            <a class="dropdown-item" href="dock_vs_kube.html">Docker vs. Kubernetes</a>
+                            <a class="dropdown-item" href="data_center.html">Data Centers</a>
+                            <a class="dropdown-item" href="docker_tutorial.html">Docker Tutorial</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container about-content-body mt-5">
+            <h1 class="text-center mt-5">ABOUT</h1>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <img src="../img/about-img.jpeg" class="img-fluid mt-5" alt="">
                 </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">About</li>
-    </ol>
-</nav>
-<h1>About</h1>
-<div class="row">
-    <div class="col-8">
-        <p>
-            This website was created as a project for the course IS 117 Introduction to Website Development taught by
-            Professor Keith Williams at NJIT. The goal of this website is to explain the differences between
-            containerization and virtualization as well as the software platforms Docker and Kubernetes. The
-            relationship between data centers and cloud technology is also discussed. A tutorial for creating a Docker
-            repository is included.
-        </p>
+                <div class="col-12 col-lg-8 col-md-8 mt-5 text-center">
+                    <p>
+                        This website was created as a project for the course IS 117 Introduction to Website Development taught by
+                        Professor Keith Williams at NJIT. The goal of this website is to explain the differences between
+                        containerization and virtualization as well as the software platforms Docker and Kubernetes. The
+                        relationship between data centers and cloud technology is also discussed. A tutorial for creating a Docker
+                        repository is included.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Optional JavaScript; choose one of the two! -->
 
